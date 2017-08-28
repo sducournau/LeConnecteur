@@ -1,0 +1,198 @@
+{
+  "nodes" : [
+
+    {
+        "ID": "id_1",
+        "IDPROJET": "projet_1",
+        "IDLIEU": "lieu_1",
+        "IDSECTEUR": "secteur_1",
+        "TYPE": "STARTUP",
+        "NOM": "PREDA",
+        "PROPRIETES":
+              {
+                "NOMSECTEUR": "E-learning",
+                "URL": "https://www.preda.io",
+                "COORDONNEES": [
+                    {
+                        "GPSLONGITUDE": "30.45",
+                        "GPSLATITUDE": "30.85"
+                    }
+                  ]
+            }
+    },
+    {
+        "ID": "id_2",
+        "IDPROJET": "projet_2",
+        "IDLIEU": "lieu_1",
+        "IDSECTEUR": "secteur_2",
+        "TYPE": "ASSOCIATION",
+        "NOM": "Le connecteur",
+        "PROPRIETES":
+            {
+                "NOMSECTEUR": "Media",
+                "URL": "https://www.leconnecteur.org/",
+                "COORDONNEES": [
+                    {
+                        "GPSLONGITUDE": "30.45",
+                        "GPSLATITUDE": "30.85"
+                    }
+                  ]
+            }
+    },
+    {
+        "ID": "id_3",
+        "IDPROJET": "projet_3",
+        "IDLIEU": "lieu_1",
+        "IDSECTEUR": "secteur_2",
+        "TYPE": "ASSOCIATION",
+        "NOM": "Innovergne",
+        "PROPRIETES":
+            {
+                "NOMSECTEUR": "Media",
+                "URL": "http://www.innovergne.fr/",
+                "COORDONNEES": [
+                    {
+                        "GPSLONGITUDE": "30.45",
+                        "GPSLATITUDE": "30.85"
+                    }
+                  ]
+            }
+    },
+    {
+        "ID": "id_4",
+        "IDPROJET": "projet_4",
+        "IDLIEU": "lieu_1",
+        "IDSECTEUR": "secteur_3",
+        "TYPE": "STARTUP",
+        "NOM": "ARKIMA",
+        "PROPRIETES":
+            {
+                "NOMSECTEUR": "3D",
+                "URL": "http://www.arkima.io/",
+                "COORDONNEES": [
+                    {
+                        "GPSLONGITUDE": "30.45",
+                        "GPSLATITUDE": "30.85"
+                    }
+                  ]
+            }
+    },
+    {
+        "ID": "id_5",
+        "IDPROJET": "projet_5",
+        "IDLIEU": "lieu_1",
+        "IDSECTEUR": "secteur_4",
+        "TYPE": "ORGANISME",
+        "NOM": "Auvergne business angel",
+        "PROPRIETES":
+          {
+                "NOMSECTEUR": "Finance",
+                "URL": "http://www.auvergnebusinessangels.com/",
+                "COORDONNEES": [
+                    {
+                        "GPSLONGITUDE": "30.45",
+                        "GPSLATITUDE": "30.85"
+                    }
+                  ]
+            }
+    },
+    {
+        "ID": "id_6",
+        "IDPROJET": "projet_6",
+        "IDLIEU": "lieu_1",
+        "IDSECTEUR": "secteur_4",
+        "TYPE": "ORGANISME",
+        "NOM": "POLE EMPLOI",
+        "PROPRIETES":
+            {
+                "NOMSECTEUR": "Finance",
+                "URL": "http://www.poleemploi.fr",
+                "COORDONNEES": [
+                    {
+                        "GPSLONGITUDE": "30.45",
+                        "GPSLATITUDE": "30.85"
+                    }
+                  ]
+            }
+    },
+    {
+        "ID": "id_7",
+        "IDPROJET": "projet_7",
+        "IDLIEU": "lieu_1",
+        "IDSECTEUR": "secteur_4",
+        "TYPE": "STARTUP",
+        "NOM": "Aristys-Web",
+        "PROPRIETES":
+            {
+                "NOMSECTEUR": "Web",
+                "URL": "https://www.aristys-web.com/",
+                "COORDONNEES": [
+                    {
+                        "GPSLONGITUDE": "30.45",
+                        "GPSLATITUDE": "30.85"
+                    }
+                  ]
+            }
+
+    },
+    {
+        "ID": "id_8",
+        "IDPROJET": "projet_8",
+        "IDLIEU": "lieu_1",
+        "IDSECTEUR": "secteur_4",
+        "TYPE": "STARTUP",
+        "NOM": "METAVERSE CONCEPT",
+        "PROPRIETES":
+
+            {
+                "NOMSECTEUR": "3D",
+                "URL": "http://metaverseconcept.com/",
+                "COORDONNEES": [
+                    {
+                        "GPSLONGITUDE": "30.45",
+                        "GPSLATITUDE": "30.85"
+                    }
+                  ]
+            }
+    },
+    {
+        "ID": "id_9",
+        "IDPROJET": "projet_8",
+        "IDLIEU": "lieu_1",
+        "IDSECTEUR": "secteur_4",
+        "TYPE": "STARTUP",
+        "NOM": "WOOM",
+        "PROPRIETES":
+            {
+                "NOMSECTEUR": "Loisir",
+                "URL": "http://www.woom.fr/",
+                "COORDONNEES": [
+                    {
+                        "GPSLONGITUDE": "30.45",
+                        "GPSLATITUDE": "30.85"
+                    }
+                  ]
+            }
+    }
+
+],
+
+"links" : [
+
+  {"source": "id_5", "target": "id_4", "value": 2},
+  {"source": "id_5", "target": "id_1", "value": 3},
+  {"source": "id_5", "target": "id_2", "value": 3},
+  {"source": "id_6", "target": "id_2", "value": 4},
+  {"source": "id_6", "target": "id_4", "value": 2},
+  {"source": "id_6", "target": "id_7", "value": 4},
+  {"source": "id_6", "target": "id_8", "value": 2},
+  {"source": "id_6", "target": "id_9", "value": 2},
+  {"source": "id_2", "target": "id_2", "value": 1},
+  {"source": "id_2", "target": "id_1", "value": 1},
+  {"source": "id_2", "target": "id_4", "value": 1},
+  {"source": "id_2", "target": "id_9", "value": 1},
+  {"source": "id_3", "target": "id_8", "value": 1},
+  {"source": "id_3", "target": "id_7", "value": 1}
+
+]
+}
